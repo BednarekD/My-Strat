@@ -3,12 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package strategymyfriend;
+package factory;
 
 /**
  *
  * @author student
  */
-public interface AbstarctStrategy {
-    public int[] sort(int[] tab);
-}
+
+ public enum SortMethodEnum
+    {
+    bubblesort,
+    instertionsort,
+    quicksort,
+    selectionsort
+    }
+
