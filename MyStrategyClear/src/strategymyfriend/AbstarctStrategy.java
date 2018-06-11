@@ -10,5 +10,5 @@ package strategymyfriend;
  * @author student
  */
 public interface AbstarctStrategy {
-    
+    public abstract void sort(int[] tab);
 }
